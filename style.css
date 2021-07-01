@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   text-align: center;
   border-radius: 10px;
-  padding:60px 0px 0px 0px;
+  padding: 60px 0px 0px 0px;
   background-repeat: no-repeat;
   background-size: 100% 34%;
   background-image: url(images/bg-pattern-card.svg);
@@ -38,28 +38,36 @@ body {
   justify-content: center;
   line-height: 1px;
 }
-.info {
+.count {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: -15px;
 }
-.stats p {
+.info h3 {
   font-size: 18px;
   font-weight: 700;
 }
-.info strong {
-  font-size: 18px;
+
+.name-age {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.age {
+  margin-top: 19px;
+}
+
+.tags {
+  font-size: 10px;
   font-weight: 700;
+  opacity: 0.4;
+  letter-spacing: 1px;
 }
-.stats footer {
+.city {
   font-size: 12px;
   font-weight: 400;
-  opacity: 0.5;
-}
-.info footer {
-  font-size: 12px;
-  font-weight: 400;
-  margin-top: 30px;
+  margin-top: 10px;
   color: hsl(229, 23%, 23%);
-  border-bottom: 1px solid hsl(0, 0%, 59%);
-  opacity: 0.5;
-  padding-bottom: 30px;
-border;
+  border-bottom: 1px solid hsla(0, 0%, 59%, 0.5);
+  padding-bottom: 45px;
 }
