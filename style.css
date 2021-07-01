@@ -71,3 +71,11 @@ body {
   border-bottom: 1px solid hsla(0, 0%, 59%, 0.5);
   padding-bottom: 45px;
 }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
